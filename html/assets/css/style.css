@@ -1,0 +1,171 @@
+* {
+    margin: 0vw;
+    padding: 0vw;
+    box-sizing: border-box;
+    user-select: none;
+    transition: all 0.25s;
+}
+
+body {
+    position: relative;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.form {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 13.770833333333334vw;
+    height: 17.208333333333334vw;
+    border-radius: 0.20833333333333334vw;
+    background-image: url('../images/background.png');
+    background-size: 13.770833333333334vw 17.208333333333334vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    font-family: 'DrukCyr-Bold';
+    font-size: 2.9125vw;
+    font-weight: 700;
+    letter-spacing: 0.365625vw;
+    background: radial-gradient(58.04% 58.03% at 49.68% 41.98%, #00c2ff 0%, #006383 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.funk-input {
+    position: relative;
+    margin-top: 1vw;
+    width: 11.427083333333334vw;
+    height: 2.3958333333333335vw;
+    border-radius: 0.15625vw;
+    padding: 0.8vw;
+    border: 0.052083333333333336vw solid rgba(0, 162, 255, 0.17);
+    background: radial-gradient(50% 50% at 50% 50%, rgba(0, 178, 255, 0.11) 0%, rgba(0, 194, 255, 0.06) 100%);
+    font-size: 1.09375vw;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'DrukCyr-Medium';
+    letter-spacing: 0.2vw;
+    outline: none;
+}
+
+.funk-input:focus {
+    border: 0.052083333333333336vw solid rgba(0, 162, 255, 0.301);
+    background: radial-gradient(50% 50% at 50% 50%, rgba(0, 179, 255, 0.281) 0%, rgba(0, 195, 255, 0.205) 100%);
+}
+
+.funk-input::-webkit-inner-spin-button,
+.funk-input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0vw;
+}
+
+.btn-frak {
+    position: relative;
+    margin-top: 0.6vw;
+    width: 11.427083333333334vw;
+    height: 2.3958333333333335vw;
+    border-radius: 0.15625vw;
+    border: none;
+    outline: none;
+    background: url('../images/frak.png');
+    background-size: 9.427083333333334vw 2.3958333333333335vw;
+    color: rgba(57, 186, 226, 0.85);
+    font-family: 'DrukCyr-Medium';
+    font-size: 1.3020833333333333vw;
+    letter-spacing: 0.026041666666666668vw;
+}
+
+.btnfunksound-join {
+    position: relative;
+    margin-top: 0.6vw;
+    width: 11.427083333333334vw;
+    height: 2.3958333333333335vw;
+    border-radius: 0.15625vw;
+    border: none;
+    outline: none;
+    background: url('../images/join.png');
+    background-size: 9.427083333333334vw 2.3958333333333335vw;
+    color: rgba(57, 226, 212, 0.85);
+    font-family: 'DrukCyr-Medium';
+    font-size: 1.3020833333333333vw;
+    letter-spacing: 0.026041666666666668vw;
+}
+
+.btnfunksound-leave {
+    position: relative;
+    margin-top: 0.6vw;
+    width: 11.427083333333334vw;
+    height: 2.3958333333333335vw;
+    border-radius: 0.15625vw;
+    border: none;
+    outline: none;
+    background: url('../images/leave.png');
+    background-size: 9.427083333333334vw 2.3958333333333335vw;
+    color: rgba(0, 122, 112, 0.85);
+    font-family: 'DrukCyr-Medium';
+    font-size: 1.3020833333333333vw;
+    letter-spacing: 0.026041666666666668vw;
+}
+
+.btn-join {
+    position: relative;
+    margin-top: 0.6vw;
+    width: 11.427083333333334vw;
+    height: 2.3958333333333335vw;
+    border-radius: 0.15625vw;
+    border: none;
+    outline: none;
+    background: url('../images/join.png');
+    background-size: 9.427083333333334vw 2.3958333333333335vw;
+    color: rgba(57, 226, 94, 0.85);
+    font-family: 'DrukCyr-Medium';
+    font-size: 1.3020833333333333vw;
+    letter-spacing: 0.026041666666666668vw;
+}
+
+.btn-leave {
+    position: relative;
+    margin-top: 0.6vw;
+    width: 11.427083333333334vw;
+    height: 2.3958333333333335vw;
+    border-radius: 0.15625vw;
+    border: none;
+    outline: none;
+    background: url('../images/leave.png');
+    background-size: 9.427083333333334vw 2.3958333333333335vw;
+    color: rgba(226, 57, 57, 0.85);
+    font-family: 'DrukCyr-Medium';
+    font-size: 1.3020833333333333vw;
+    letter-spacing: 0.026041666666666668vw;
+}
+
+.btn-join:hover,
+.btn-leave:hover,
+.btn-frak:hover {
+    cursor: pointer;
+    transform: translateY(0.15vw);
+}
+
+.btn-join:hover {
+    color: rgb(57, 226, 94);
+    text-shadow: 0vw 0vw 1vw rgb(57, 226, 94);
+}
+
+.btn-frak:hover {
+    color: rgb(57, 186, 226);
+    text-shadow: 0vw 0vw 1vw rgb(57, 186, 226);
+}
+
+.btn-leave:hover {
+    color: rgb(226, 57, 57);
+    text-shadow: 0vw 0vw 1vw rgb(226, 57, 57);
+}

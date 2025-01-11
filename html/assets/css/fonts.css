@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "DrukCyr-Bold";
+    src: url("../fonts/DrukCyr-Bold.ttf");
+}
+
+@font-face {
+    font-family: "DrukCyr-BoldItalic";
+    src: url("../fonts/DrukCyr-BoldItalic.ttf");
+}
+
+@font-face {
+    font-family: "DrukCyr-Heavy";
+    src: url("../fonts/DrukCyr-Heavy.ttf");
+}
+
+@font-face {
+    font-family: "DrukCyr-HeavyItalic";
+    src: url("../fonts/DrukCyr-HeavyItalic.ttf");
+}
+
+@font-face {
+    font-family: "DrukCyr-Medium";
+    src: url("../fonts/DrukCyr-Medium.ttf");
+}
+
+@font-face {
+    font-family: "DrukCyr-MediumItalic";
+    src: url("../fonts/DrukCyr-MediumItalic.ttf");
+}
+
+@font-face {
+    font-family: "DrukCyr-Super";
+    src: url("../fonts/DrukCyr-Super.ttf");
+}
+
+@font-face {
+    font-family: "DrukCyr-SuperItalic";
+    src: url("../fonts/DrukCyr-SuperItalic.ttf");
+}
