@@ -1,7 +1,7 @@
 fx_version "cerulean"
 games { "gta5" }
 
-author 'Eno &  zzFxnn'
+author 'Eno & zzFxnn'
 
 client_scripts {
     "configs/cl_config.lua",
